@@ -42,27 +42,27 @@
  *
  * @author S.C. Chen <me578022@gmail.com>
  */
-defined('HDOM_TYPE_ELEMENT')               or define('HDOM_TYPE_ELEMENT', 1);
-defined('HDOM_TYPE_COMMENT')               or define('HDOM_TYPE_COMMENT', 2);
-defined('HDOM_TYPE_TEXT')                  or define('HDOM_TYPE_TEXT', 3);
-defined('HDOM_TYPE_ENDTAG')                or define('HDOM_TYPE_ENDTAG', 4);
-defined('HDOM_TYPE_ROOT')                  or define('HDOM_TYPE_ROOT', 5);
-defined('HDOM_TYPE_UNKNOWN')               or define('HDOM_TYPE_UNKNOWN', 6);
-defined('HDOM_QUOTE_DOUBLE')               or define('HDOM_QUOTE_DOUBLE', 0);
-defined('HDOM_QUOTE_SINGLE')               or define('HDOM_QUOTE_SINGLE', 1);
-defined('HDOM_QUOTE_NO')                   or define('HDOM_QUOTE_NO', 3);
-defined('HDOM_INFO_BEGIN')                 or define('HDOM_INFO_BEGIN', 0);
-defined('HDOM_INFO_END')                   or define('HDOM_INFO_END', 1);
-defined('HDOM_INFO_QUOTE')                 or define('HDOM_INFO_QUOTE', 2);
-defined('HDOM_INFO_SPACE')                 or define('HDOM_INFO_SPACE', 3);
-defined('HDOM_INFO_TEXT')                  or define('HDOM_INFO_TEXT', 4);
-defined('HDOM_INFO_INNER')                 or define('HDOM_INFO_INNER', 5);
-defined('HDOM_INFO_OUTER')                 or define('HDOM_INFO_OUTER', 6);
-defined('HDOM_INFO_ENDSPACE')              or define('HDOM_INFO_ENDSPACE', 7);
-defined('DEFAULT_TARGET_CHARSET', 'UTF-8') or define('DEFAULT_TARGET_CHARSET', 'UTF-8');
-defined('DEFAULT_BR_TEXT', "\r\n")         or define('DEFAULT_BR_TEXT', "\r\n");
-defined('DEFAULT_SPAN_TEXT', " ")          or define('DEFAULT_SPAN_TEXT', " ");
-defined('MAX_FILE_SIZE', 600000)           or define('MAX_FILE_SIZE', 600000);
+defined('HDOM_TYPE_ELEMENT')        or define('HDOM_TYPE_ELEMENT', 1);
+defined('HDOM_TYPE_COMMENT')        or define('HDOM_TYPE_COMMENT', 2);
+defined('HDOM_TYPE_TEXT')           or define('HDOM_TYPE_TEXT', 3);
+defined('HDOM_TYPE_ENDTAG')         or define('HDOM_TYPE_ENDTAG', 4);
+defined('HDOM_TYPE_ROOT')           or define('HDOM_TYPE_ROOT', 5);
+defined('HDOM_TYPE_UNKNOWN')        or define('HDOM_TYPE_UNKNOWN', 6);
+defined('HDOM_QUOTE_DOUBLE')        or define('HDOM_QUOTE_DOUBLE', 0);
+defined('HDOM_QUOTE_SINGLE')        or define('HDOM_QUOTE_SINGLE', 1);
+defined('HDOM_QUOTE_NO')            or define('HDOM_QUOTE_NO', 3);
+defined('HDOM_INFO_BEGIN')          or define('HDOM_INFO_BEGIN', 0);
+defined('HDOM_INFO_END')            or define('HDOM_INFO_END', 1);
+defined('HDOM_INFO_QUOTE')          or define('HDOM_INFO_QUOTE', 2);
+defined('HDOM_INFO_SPACE')          or define('HDOM_INFO_SPACE', 3);
+defined('HDOM_INFO_TEXT')           or define('HDOM_INFO_TEXT', 4);
+defined('HDOM_INFO_INNER')          or define('HDOM_INFO_INNER', 5);
+defined('HDOM_INFO_OUTER')          or define('HDOM_INFO_OUTER', 6);
+defined('HDOM_INFO_ENDSPACE')       or define('HDOM_INFO_ENDSPACE', 7);
+defined('DEFAULT_TARGET_CHARSET')   or define('DEFAULT_TARGET_CHARSET', 'UTF-8');
+defined('DEFAULT_BR_TEXT')          or define('DEFAULT_BR_TEXT', "\r\n");
+defined('DEFAULT_SPAN_TEXT')        or define('DEFAULT_SPAN_TEXT', " ");
+defined('MAX_FILE_SIZE')            or define('MAX_FILE_SIZE', 600000);
 // helper functions
 // -----------------------------------------------------------------------------
 // get html dom from file
